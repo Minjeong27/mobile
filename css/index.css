@@ -1,0 +1,121 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+#wrap{
+
+}
+
+#visual{
+
+
+}
+
+#visual img{
+  margin-top:50px;
+  width:100%;
+  height:300px;
+}
+
+section{
+
+}
+
+#section1{
+
+}
+
+#section1 ul{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+
+#section1 .material-icons{
+  font-size:50px;
+  text-align:center;
+  color:rgb(17, 30, 70);
+}
+
+
+#section1 ul li{
+  width:33.3333%;
+  height:130px;
+  border:1px solid rgb(147, 155, 174);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:15px;
+  text-align: center;
+  font-weight:bold;
+}
+
+#section2{
+  margin-top:20px;
+}
+
+#section2 h1{
+  font-size:24px;
+  text-align:center;
+}
+
+#section3{
+  margin-top:40px;
+
+}
+
+.section3in{
+  background:url("../image/gallery-.png") no-repeat center center fixed;
+  background-size:cover;
+  width:100%;
+  height:280px;
+  display:block;
+}
+
+
+#section3 h2{
+  font-size:24px;
+  color:#fff;
+  text-align:center;
+  margin-top:20px;
+  line-height:280px;
+  /* position: absolute;
+  top:110px;
+  left:138px; */
+  text-shadow:1px 1px 3px #000;
+}
+
+#section4{
+  margin-top:40px;
+
+}
+
+
+#section4 ul{
+  width:400px;
+  margin:0 auto;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+#section4 ul li{
+  
+} 
+
+
+#section4 ul li img{
+  width:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

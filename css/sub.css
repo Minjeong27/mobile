@@ -1,0 +1,490 @@
+@import url(common.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+
+/*_________________________
+________firstgarden________ */
+
+.section_intro h1{
+  font-size:30px;
+  font-weight:bold;
+  padding-left:15px;
+  padding:80px 0 30px 15px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*________________________
+__________dining__________ */
+
+.subvisual1 img{
+  width: 100%;
+  height:150px;
+  margin-top:50px;
+}
+
+.section_dining{
+  margin-top: 20px;
+
+}
+
+.section_dining h1{
+  font-size:28px;
+  font-weight:bold;
+  padding-left:15px;
+  margin: 30px 0;
+}
+
+.section_dining ul{
+
+}
+
+.section_dining ul li{
+  margin-bottom:60px;
+}
+
+.section_dining ul li h2{
+  font-size:20px;
+  font-weight:bold;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.section_dining ul li img{
+  width:100%;
+  height:auto;
+}
+
+.section_dining ul li p{
+  width:75%;
+  margin:20px auto;
+  line-height:15px;
+  text-align:center;
+  font-size:12px;
+
+}
+
+
+.section_dining ul li:nth-child(4) span{
+  font-weight:bold;
+  display:block;
+  text-align:center;
+  font-size:14px;
+  margin-bottom:10px; 
+}
+
+
+
+/*_________________________
+__________wedding__________ */
+
+.subvisual2 img{
+  width: 100%;
+  height:150px;
+  margin-top:50px;
+}
+
+.section_wedding{
+  margin-top: 20px;
+}
+
+.section_wedding h1{
+  font-size:28px;
+  font-weight:bold;
+  padding-left:15px;
+  margin: 30px 0;
+}
+
+.section_wedding ul{
+
+}
+
+.section_wedding ul li{
+  margin-bottom:60px;
+}
+
+.section_wedding ul li img{
+  width:100%;
+  height:auto;
+  margin-bottom:20px;
+}
+
+.section_wedding ul li .gaudium{
+  width:40%;
+  height:auto;
+  margin:30px auto;
+  display:block;
+
+}
+
+.section_wedding ul li p{
+  font-weight:bold;
+  font-size:14px;
+  margin-bottom:10px; 
+}
+
+.section_wedding ul li h2{
+  width:75%;
+  margin:0 auto;
+  font-weight:normal;
+  text-align:center;
+  font-size:12px;
+}
+
+
+
+
+/*_________________________
+__________theater__________ */
+
+.subvisual3 img{
+  width: 100%;
+  height:150px;
+  margin-top:50px;
+}
+
+.section_theater{
+
+}
+
+.section_theater h1{
+  font-size:28px;
+  font-weight:bold;
+  padding-left:15px;
+  margin: 30px 0;
+}
+
+.section_theater p{
+  width:90%;
+  margin:0 auto;
+  text-align:center;
+  font-size:13px;
+  line-height:16px;
+}
+
+.section_theater table{
+  margin:70px auto;
+  width:100%;
+  height:100px;
+  border:1px solid rgb(221, 221, 221);
+  /* border:0; */
+}
+
+.section_theater table tr:nth-child(1){
+  background:rgb(234, 234, 234);
+}
+
+.section_theater table td{
+  text-align:center;
+  font-size:12px;
+
+}
+
+.section_theater table .green{
+  color:rgb(4, 141, 4);
+}
+
+.section_theater h2{
+  text-align:center;
+  margin-bottom:10px;
+}
+
+.section_theater hr{
+  width:70%;
+  margin:0 auto;
+}
+
+.section_theater .info{
+  font-size:12px;
+  line-height:16px;
+  margin:10px 0;
+}
+
+.section_theater .red{
+  font-weight:bold;
+  color:rgb(234, 5, 5);
+}
+
+.section_theater h3{
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  margin:60px 0 30px;
+}
+
+.section_theater .movietime{
+  display:flex;
+  text-align:center;
+}
+
+.section_theater .movie1{
+  
+}
+
+.section_theater .movie1 span{
+  
+}
+
+.section_theater .movie2{
+  
+}
+
+.section_theater .movietime span{
+  background:rgb(67, 19, 101);
+  padding:3px 10px;
+  border-radius:7px;
+  color:#fff;
+}
+
+.section_theater .movietime input{
+  margin-top:10px;
+  padding:3px 6px;
+  background:#fff;
+  color: rgb(52, 35, 137);
+  border:1px solid rgb(52, 35, 137);
+  border-radius:3px;
+  font-size:14px;
+  font-weight:bold;
+}
+
+.section_theater .movietime input:hover{
+  background:rgb(52, 35, 137);
+  color:#fff;
+  font-weight:normal;
+}
+
+.section_theater .movietime .title{
+  background:none;
+  color:#111;
+  font-size:14px;
+  font-weight:bold;
+  line-height:18px;
+}
+
+.section_theater .movie1 img, .movie2 img{
+  width:80%;
+  margin:20px 0 5px 0;
+}
+
+.section_theater .movie1 p, .movie2 p{
+  font-weight:bold;
+}
+
+.section_theater .detail{
+  font-size:12px;
+  margin-top:40px;
+  text-align:center;
+  font-weight:bold;
+
+}
+
+
+
+/*_________________________
+__________theater-1__________ */
+
+.section_theater-1{
+}
+
+.section_theater-1 h1{
+  font-size:30px;
+  font-weight:bold;
+  padding-left:15px;
+  padding:80px 0 30px 15px ;
+}
+
+
+.section_theater-1 img{
+  width:70%;
+}
+
+.section_theater-1 .theater1{
+  text-align: center;
+
+}
+
+.section_theater-1 .theater1 .text{
+  width:90%;
+  margin:0 auto;
+  line-height:18px;
+}
+
+.section_theater-1 .theater1 .text span{
+  border-bottom:1px solid rgb(153, 163, 212);
+  padding:2px 0;
+  color:rgb(95, 112, 187);
+  font-size:17px;
+}
+
+.section_theater-1 .theater1 p:nth-of-type(1){
+  margin:20px 0 5px;
+  text-align:left;
+  font-size:13px;
+  font-weight:bold;
+
+}
+
+.section_theater-1 .theater1 p:nth-of-type(2){
+  font-weight:bold;
+  font-size:20px;
+  line-height:24px;
+  text-align:left;
+
+}
+
+.section_theater-1 .theater1 p:nth-of-type(3){
+  text-align:left;
+  margin-top:20px;
+  font-weight:bold;
+  font-size:13px;
+}
+
+.section_theater-1 .theater1 p:nth-of-type(4){
+  text-align:left;
+  margin-top:20px;
+  font-size:12px;
+}
+
+
+
+
+/*_________________________
+__________theater-2__________ */
+
+.section_theater-2 h1{
+  font-size:30px;
+  font-weight:bold;
+  padding-left:15px;
+  padding:80px 0 30px 15px ;
+}
+
+
+.section_theater-2 img{
+  width:70%;
+}
+
+.section_theater-2 .theater2{
+  text-align: center;
+
+}
+
+.section_theater-2 .theater2 .text{
+  width:90%;
+  margin:0 auto;
+  line-height:18px;
+}
+
+.section_theater-2 .theater2 .text span{
+  border-bottom:1px solid rgb(153, 163, 212);
+  padding:2px 0;
+  color:rgb(95, 112, 187);
+  font-size:17px;
+}
+
+.section_theater-2 .theater2 p:nth-of-type(1){
+  margin:20px 0 5px;
+  text-align:left;
+  font-size:13px;
+  font-weight:bold;
+
+}
+
+.section_theater-2 .theater2 p:nth-of-type(2){
+  font-weight:bold;
+  font-size:20px;
+  line-height:24px;
+  text-align:left;
+
+}
+
+.section_theater-2 .theater2 p:nth-of-type(3){
+  text-align:left;
+  margin-top:20px;
+  font-weight:bold;
+  font-size:13px;
+
+}
+
+.section_theater-2 .theater2 p:nth-of-type(4){
+  text-align:left;
+  margin-top:20px;
+  font-size:12px;
+}
+
+
+/*_________________________
+____________map____________ */
+
+
+
+.section_map{
+}
+
+.section_map h1{
+  font-size:30px;
+  font-weight:bold;
+  padding:80px 0 30px 15px ;
+
+}
+
+.section_map .map{
+  text-align:center;
+}
+
+.section_map .map iframe{
+  width:80%;
+  height:300px;
+}
+
+.section_map table{
+  width:90%;
+  margin:30px auto;
+
+}
+
+.section_map table tr{
+  border-bottom:1px dashed rgb(185, 185, 185);
+  }
+
+.section_map table th{
+  width:20%;
+}
+
+.section_map table td{
+  padding:10px 5px;
+  line-height:20px;
+}
+
+.section_map table .red{
+  color:red;
+  font-weight:bold;
+}
+
+.section_map .map2{
+  margin-top:40px;
+  text-align:center;
+}
+
+.section_map .map2 img{
+  width:100%;
+}
+
