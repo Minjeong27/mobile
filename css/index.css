@@ -16,7 +16,7 @@
 #visual img{
   margin-top:50px;
   width:100%;
-  height:750px;
+  height:300px;
 }
 
 section{
@@ -34,7 +34,7 @@ section{
 }
 
 #section1 .material-icons{
-  font-size:150px;
+  font-size:50px;
   text-align:center;
   color:rgb(255, 147, 147);
 }
@@ -42,12 +42,12 @@ section{
 
 #section1 ul li{
   width:33.3333%;
-  height:350px;
+  height:130px;
   border:1px solid rgb(244, 234, 230);
   display:flex;
   justify-content:center;
   align-items:center;
-  font-size:30px;
+  font-size:15px;
   text-align: center;
   font-weight:bold;
   color:rgb(168, 114, 114);
@@ -64,7 +64,7 @@ section{
 }
 
 #section3{
-  margin-top:100px;
+  margin-top:50px;
 
 }
 
@@ -72,17 +72,17 @@ section{
   background:url("../image/gallery-.png") no-repeat center center fixed;
   background-size:cover;
   width:100%;
-  height:450px;
+  height:280px;
   display:block;
 }
 
 
 #section3 h2{
-  font-size:50px;
+  font-size:24px;
   color:#fff;
   text-align:center;
   margin-top:20px;
-  line-height:440px;
+  line-height:280px;
   /* position: absolute;
   top:110px;
   left:138px; */
@@ -90,18 +90,17 @@ section{
 }
 
 #section4{
-  margin-top:100px;
+  margin-top:50px;
 
 }
 
 
 #section4 ul{
-  width:95%;
+  width:100%;
   display:flex;
   justify-content:center;
   flex-wrap:wrap;
-  margin-bottom:50px;
-  margin:20px auto 120px;
+  margin:20px auto 60px;
 }
 
 #section4 ul li{
@@ -110,7 +109,7 @@ section{
 
 
 #section4 ul li img{
-  width:450px;
+  width:204px;
 }
 
 

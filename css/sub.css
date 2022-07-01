@@ -8,14 +8,14 @@
 ________firstgarden________ */
 
 .section_intro h1{
-  font-size:40px;
+  font-size:30px;
   font-weight:bold;
   padding-left:15px;
-  padding:140px 0 30px 15px ;
+  padding:80px 0 30px 15px ;
 }
 
 .section_intro h2{
-  font-size:34px;
+  font-size:24px;
   font-weight:bold;
   text-align:center;
   margin:20px;
@@ -29,21 +29,19 @@ ________firstgarden________ */
 .section_intro p{
   width:85%;
   margin:20px auto;
-  line-height:38px;
+  line-height:22px;
   text-align:center;
-  font-size:28px;
+  font-size:15px;
 }
 
 
 .section_intro h3{
-  font-size:34px;
+  font-size:24px;
   font-weight:bold;
   padding-left:15px;
   padding:80px 0 30px 15px ;
   text-align:center;
-
 }
-
 
 
 
@@ -52,9 +50,8 @@ ________firstgarden________ */
 }
  
 .section_intro .rides img{
-  width:49.6%;
+  width:49.4%;
   height:250px;
-
 }
 
 
@@ -66,7 +63,7 @@ ________firstgarden________ */
 }
 
 .section_intro .animal img{
-  width:49.6%;
+  width:49.4%;
 }
 
 
@@ -83,7 +80,9 @@ ________firstgarden________ */
   margin-top:20px;
 }
 
-
+.section_intro .gift{
+  margin-bottom:60px;
+}
 
 
 
