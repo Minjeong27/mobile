@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $(".gnb").css({"right":"-250px"}); /* 처음위치 */
+  $(".gnb").css({"right":"-600px"}); /* 처음위치 */
 
   bb=true;
   $(".menu_toggle_btn").click(function(){
@@ -8,7 +8,7 @@ $(document).ready(function(){
     $(this).toggleClass("menu-open");
 
     if(bb){
-      $(".gnb").stop(true,true).animate({"margin-right":"250px"},500,function(){
+      $(".gnb").stop(true,true).animate({"margin-right":"600px"},500,function(){
         bb=false;
       });
     }else{

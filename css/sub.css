@@ -8,26 +8,80 @@
 ________firstgarden________ */
 
 .section_intro h1{
-  font-size:30px;
+  font-size:40px;
+  font-weight:bold;
+  padding-left:15px;
+  padding:140px 0 30px 15px ;
+}
+
+.section_intro h2{
+  font-size:34px;
+  font-weight:bold;
+  text-align:center;
+  margin:20px;
+}
+
+.section_intro img{
+  width:100%;
+  height:auto;
+}
+
+.section_intro p{
+  width:85%;
+  margin:20px auto;
+  line-height:38px;
+  text-align:center;
+  font-size:28px;
+}
+
+
+.section_intro h3{
+  font-size:34px;
   font-weight:bold;
   padding-left:15px;
   padding:80px 0 30px 15px ;
+  text-align:center;
+
+}
+
+
+
+
+.section_intro .rides{
+  margin:0 auto;
+}
+ 
+.section_intro .rides img{
+  width:49.6%;
+  height:250px;
+
+}
+
+
+
+
+.section_intro .animal{
+  margin:0 auto;
+
+}
+
+.section_intro .animal img{
+  width:49.6%;
 }
 
 
 
 
 
+.section_intro .gift1{
+  width:70%;
+  margin:0 auto;
+}
 
-
-
-
-
-
-
-
-
-
+.section_intro .gift2{
+  width:100%;
+  margin-top:20px;
+}
 
 
 
@@ -38,7 +92,7 @@ __________dining__________ */
 
 .subvisual1 img{
   width: 100%;
-  height:150px;
+  height:300px;
   margin-top:50px;
 }
 
@@ -48,7 +102,7 @@ __________dining__________ */
 }
 
 .section_dining h1{
-  font-size:28px;
+  font-size:40px;
   font-weight:bold;
   padding-left:15px;
   margin: 30px 0;
@@ -63,7 +117,7 @@ __________dining__________ */
 }
 
 .section_dining ul li h2{
-  font-size:20px;
+  font-size:34px;
   font-weight:bold;
   text-align:center;
   margin-bottom:20px;
@@ -75,11 +129,11 @@ __________dining__________ */
 }
 
 .section_dining ul li p{
-  width:75%;
+  width:80%;
   margin:20px auto;
-  line-height:15px;
+  line-height:38px;
   text-align:center;
-  font-size:12px;
+  font-size:28px;
 
 }
 
@@ -88,7 +142,7 @@ __________dining__________ */
   font-weight:bold;
   display:block;
   text-align:center;
-  font-size:14px;
+  font-size:27px;
   margin-bottom:10px; 
 }
 
@@ -99,7 +153,7 @@ __________wedding__________ */
 
 .subvisual2 img{
   width: 100%;
-  height:150px;
+  height:300px;
   margin-top:50px;
 }
 
@@ -108,10 +162,10 @@ __________wedding__________ */
 }
 
 .section_wedding h1{
-  font-size:28px;
+  font-size:40px;
   font-weight:bold;
   padding-left:15px;
-  margin: 30px 0;
+  margin: 30px 0 50px 0;
 }
 
 .section_wedding ul{
@@ -138,16 +192,17 @@ __________wedding__________ */
 
 .section_wedding ul li p{
   font-weight:bold;
-  font-size:14px;
+  font-size:29px;
   margin-bottom:10px; 
 }
 
 .section_wedding ul li h2{
-  width:75%;
+  width:80%;
   margin:0 auto;
   font-weight:normal;
   text-align:center;
-  font-size:12px;
+  font-size:28px;
+  line-height: 38px;
 }
 
 
@@ -158,7 +213,7 @@ __________theater__________ */
 
 .subvisual3 img{
   width: 100%;
-  height:150px;
+  height:300px;
   margin-top:50px;
 }
 
@@ -167,7 +222,7 @@ __________theater__________ */
 }
 
 .section_theater h1{
-  font-size:28px;
+  font-size:40px;
   font-weight:bold;
   padding-left:15px;
   margin: 30px 0;
@@ -177,16 +232,17 @@ __________theater__________ */
   width:90%;
   margin:0 auto;
   text-align:center;
-  font-size:13px;
-  line-height:16px;
+  font-size:28px;
+  line-height:38px;
 }
 
 .section_theater table{
   margin:70px auto;
   width:100%;
-  height:100px;
+  height:180px;
   border:1px solid rgb(221, 221, 221);
-  /* border:0; */
+  font-size:28px;
+  border:1px solid rgb(210, 210, 210);
 }
 
 .section_theater table tr:nth-child(1){
@@ -195,7 +251,7 @@ __________theater__________ */
 
 .section_theater table td{
   text-align:center;
-  font-size:12px;
+  font-size:28px;
 
 }
 
@@ -214,8 +270,8 @@ __________theater__________ */
 }
 
 .section_theater .info{
-  font-size:12px;
-  line-height:16px;
+  font-size:14px;
+  line-height:18px;
   margin:10px 0;
 }
 
@@ -226,7 +282,7 @@ __________theater__________ */
 
 .section_theater h3{
   font-weight:bold;
-  font-size:18px;
+  font-size:34px;
   text-align:center;
   margin:60px 0 30px;
 }
@@ -250,20 +306,23 @@ __________theater__________ */
 
 .section_theater .movietime span{
   background:rgb(67, 19, 101);
-  padding:3px 10px;
+  padding:5px 16px;
   border-radius:7px;
   color:#fff;
+  font-size:22px;
+
 }
 
 .section_theater .movietime input{
   margin-top:10px;
-  padding:3px 6px;
+  padding:5px 8px;
   background:#fff;
   color: rgb(52, 35, 137);
   border:1px solid rgb(52, 35, 137);
   border-radius:3px;
-  font-size:14px;
+  font-size:26px;
   font-weight:bold;
+  cursor: pointer;
 }
 
 .section_theater .movietime input:hover{
@@ -275,9 +334,9 @@ __________theater__________ */
 .section_theater .movietime .title{
   background:none;
   color:#111;
-  font-size:14px;
+  font-size:24px;
   font-weight:bold;
-  line-height:18px;
+  line-height:32px;
 }
 
 .section_theater .movie1 img, .movie2 img{
@@ -290,7 +349,7 @@ __________theater__________ */
 }
 
 .section_theater .detail{
-  font-size:12px;
+  font-size:22px;
   margin-top:40px;
   text-align:center;
   font-weight:bold;
@@ -306,10 +365,10 @@ __________theater-1__________ */
 }
 
 .section_theater-1 h1{
-  font-size:30px;
+  font-size:40px;
   font-weight:bold;
   padding-left:15px;
-  padding:80px 0 30px 15px ;
+  padding:140px 0 30px 15px ;
 }
 
 
@@ -332,21 +391,21 @@ __________theater-1__________ */
   border-bottom:1px solid rgb(153, 163, 212);
   padding:2px 0;
   color:rgb(95, 112, 187);
-  font-size:17px;
+  font-size:27px;
 }
 
 .section_theater-1 .theater1 p:nth-of-type(1){
   margin:20px 0 5px;
   text-align:left;
-  font-size:13px;
+  font-size:23px;
   font-weight:bold;
-
+  line-height:34px;
 }
 
 .section_theater-1 .theater1 p:nth-of-type(2){
   font-weight:bold;
-  font-size:20px;
-  line-height:24px;
+  font-size:32px;
+  line-height:34px;
   text-align:left;
 
 }
@@ -355,13 +414,15 @@ __________theater-1__________ */
   text-align:left;
   margin-top:20px;
   font-weight:bold;
-  font-size:13px;
+  font-size:23px;
+  line-height:34px;
 }
 
 .section_theater-1 .theater1 p:nth-of-type(4){
   text-align:left;
   margin-top:20px;
-  font-size:12px;
+  font-size:22px;
+  line-height:28px;
 }
 
 
@@ -371,10 +432,10 @@ __________theater-1__________ */
 __________theater-2__________ */
 
 .section_theater-2 h1{
-  font-size:30px;
+  font-size:40px;
   font-weight:bold;
   padding-left:15px;
-  padding:80px 0 30px 15px ;
+  padding:140px 0 30px 15px ;
 }
 
 
@@ -397,21 +458,21 @@ __________theater-2__________ */
   border-bottom:1px solid rgb(153, 163, 212);
   padding:2px 0;
   color:rgb(95, 112, 187);
-  font-size:17px;
+  font-size:27px;
 }
 
 .section_theater-2 .theater2 p:nth-of-type(1){
   margin:20px 0 5px;
   text-align:left;
-  font-size:13px;
+  font-size:23px;
   font-weight:bold;
-
+  line-height:34px;
 }
 
 .section_theater-2 .theater2 p:nth-of-type(2){
   font-weight:bold;
-  font-size:20px;
-  line-height:24px;
+  font-size:32px;
+  line-height:34px;
   text-align:left;
 
 }
@@ -420,14 +481,15 @@ __________theater-2__________ */
   text-align:left;
   margin-top:20px;
   font-weight:bold;
-  font-size:13px;
-
+  font-size:23px;
+  line-height:34px;
 }
 
 .section_theater-2 .theater2 p:nth-of-type(4){
   text-align:left;
   margin-top:20px;
-  font-size:12px;
+  font-size:22px;
+  line-height:28px;
 }
 
 
@@ -440,9 +502,9 @@ ____________map____________ */
 }
 
 .section_map h1{
-  font-size:30px;
+  font-size:40px;
   font-weight:bold;
-  padding:80px 0 30px 15px ;
+  padding:140px 0 30px 15px ;
 
 }
 
@@ -451,18 +513,19 @@ ____________map____________ */
 }
 
 .section_map .map iframe{
-  width:80%;
-  height:300px;
+  width:90%;
+  height:600px;
 }
 
 .section_map table{
   width:90%;
   margin:30px auto;
-
+  font-size:26px;
 }
 
 .section_map table tr{
   border-bottom:1px dashed rgb(185, 185, 185);
+  
   }
 
 .section_map table th{
@@ -471,7 +534,7 @@ ____________map____________ */
 
 .section_map table td{
   padding:10px 5px;
-  line-height:20px;
+  line-height:36px;
 }
 
 .section_map table .red{
