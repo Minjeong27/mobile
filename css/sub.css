@@ -31,7 +31,7 @@ ________firstgarden________ */
   margin:20px auto;
   line-height:22px;
   text-align:center;
-  font-size:14px;
+  font-size:15px;
 }
 
 
@@ -131,7 +131,7 @@ __________dining__________ */
   margin:20px auto;
   line-height:22px;
   text-align:center;
-  font-size:14px;
+  font-size:15px;
 
 }
 
@@ -190,7 +190,7 @@ __________wedding__________ */
 
 .section_wedding ul li p{
   font-weight:bold;
-  font-size:16px;
+  font-size:15px;
   text-align:center;
   margin-bottom:10px; 
 }
@@ -200,7 +200,7 @@ __________wedding__________ */
   margin:0 auto;
   font-weight:normal;
   text-align:center;
-  font-size:14px;
+  font-size:15px;
   line-height: 22px;
 }
 
@@ -231,7 +231,7 @@ __________theater__________ */
   width:90%;
   margin:0 auto;
   text-align:center;
-  font-size:14px;
+  font-size:15px;
   line-height:22px;
 }
 
@@ -269,7 +269,7 @@ __________theater__________ */
 }
 
 .section_theater .info{
-  font-size:14px;
+  font-size:15px;
   line-height:16px;
   margin:10px 0;
 }
@@ -319,7 +319,7 @@ __________theater__________ */
   color: rgb(52, 35, 137);
   border:1px solid rgb(52, 35, 137);
   border-radius:3px;
-  font-size:12px;
+  font-size:14px;
   font-weight:bold;
   cursor: pointer;
 }
@@ -333,7 +333,7 @@ __________theater__________ */
 .section_theater .movietime .title{
   background:none;
   color:#111;
-  font-size:13px;
+  font-size:15px;
   font-weight:bold;
   line-height:18px;
 }
@@ -348,7 +348,7 @@ __________theater__________ */
 }
 
 .section_theater .detail{
-  font-size:12px;
+  font-size:13px;
   margin:40px 0;
   text-align:center;
   font-weight:bold;
